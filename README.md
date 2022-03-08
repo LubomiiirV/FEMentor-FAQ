@@ -1,6 +1,7 @@
 # Frontend Mentor - FAQ accordion card
 
-https://vlubosh.github.io/FEmentor-FAQ-Accordion-Card/
+https://vlubosh.github.io/FEMentor-FAQ/
+
 
 ![Design preview for the FAQ accordion card coding challenge](./design/desktop-preview.jpg)
 
