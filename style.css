@@ -1,0 +1,96 @@
+@import "/node_modules/normalize.css/";
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 12px;
+  background: linear-gradient(#af67e9, #6565e7);
+  background-repeat: no-repeat;
+  color: hsl(237, 12%, 33%);
+  position: relative;
+  height: 100vh;
+  
+  /*
+ Primary Text
+- Very dark desaturated blue: hsl(238, 29%, 16%)
+- Soft red: hsl(14, 88%, 65%)
+
+Neutral Text
+- Very dark grayish blue: hsl(237, 12%, 33%)
+- Dark grayish blue: hsl(240, 6%, 50%)
+
+Dividers
+- Light grayish blue: hsl(240, 5%, 91%)
+
+  */
+}
+.container {
+  position: absolute;
+  width: 1440px;
+  height: 760px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  top: 10%;
+  left: 10%;
+
+}
+
+.mini-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  border-radius: 45px;
+}
+
+.left-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.right-content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  
+}
+
+.question {
+  display: flex;
+  flex-direction: row;
+}
+
+.img {
+
+}
+
+.bg {
+  position: absolute;
+  width: 75%;
+  top: -50%;
+  left: -50%;
+}
+
+.desk {
+  width: 25%;
+}
+
+.woman {
+  position: absolute;
+  width: 50%;
+  left: -20%;
+  top: 25%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*
+mobile width 375px;
+*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+}
