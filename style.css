@@ -141,67 +141,100 @@ h1 {
   
     */
   }
-  .container {
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    border-radius: 25px;
-  }
 
-  .mini-container {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    border-radius: 45px;
-  }
-
+  /* IMAGE CONTENT */
   .left-content {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
   }
 
-  .right-content {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-  }
-
-  .question {
-    display: flex;
-    flex-direction: row;
+  .img {
+    position: absolute;
   }
 
   .bg {
-    position: absolute;
-    width: 75%;
-    top: -50%;
-    left: -50%;
-  }
-
-  .desk {
     width: 25%;
-  }
-
-  .hidden {
-    display: none;
+    z-index: 2;
   }
 
   .woman {
-    position: absolute;
-    width: 50%;
-    left: -20%;
-    top: 25%;
+    width: 25%;
+    z-index: 1;
   }
+    
 
-  .arrow-down {
-    cursor: pointer;
+  .woman-mobile {
+    display: none;
+
   }
-
   .attribution {
     font-size: 11px;
     text-align: center;
   }
   .attribution a {
     color: hsl(228, 45%, 44%);
+  }
+
+  /* TEXT CONTENT */
+  .right-content {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 85vw;
+    height: 70vh;
+    margin: 13em 2.5em;
+    text-align: center;
+    letter-spacing: -0.05em;
+  }
+
+  .question {
+    display: flex;
+    text-align: left;
+    margin: 1em;
+    padding: 1.2em 1em;
+  }
+
+  h1 {
+    font-size: 4em;
+    padding: 3em 0 0.5em 0;
+    font-weight: 900;
+  }
+
+  .question h3 {
+    font-size: 1.2em;
+    font-weight: 500;
+   
+  }
+
+  .arrow-down {
+    position: absolute;
+    right: 1.5em;
+    padding-top: 0.3em;
+    cursor: pointer;
+  }
+
+  .hidden {
+    display: none;
+    margin: 0 1em 1em 1em;
+  }
+
+  .unhide {
+    display: flex;
+    padding-bottom: 0;
+    text-align: left;
+    line-height: 1.5em;
+    margin: 0 3em 1.5em 2em;
+  }
+
+  .line {
+    margin: 0 1.5em;
+    border-bottom: 1.5px solid rgb(216, 215, 215);
+  }
+
+  /* FOOTER */
+  .attribution {
+    position: absolute;
+    font-size: 11px;
+    text-align: center;
+    bottom: 10px;
+    padding-left: 10%;
   }
 }
