@@ -85,6 +85,11 @@ h1 {
     cursor: pointer;
   }
 
+  .line {
+    margin: 0 1.5em;
+    border-bottom: 1.5px solid rgb(216, 215, 215);
+  }
+
   .hidden {
     display: none;
     margin: 0 1em 1em 1em;
@@ -98,10 +103,11 @@ h1 {
     margin: -0.5em 3.5em 0.8em 2em;
   }
 
-  .line {
-    margin: 0 1.5em;
-    border-bottom: 1.5px solid rgb(216, 215, 215);
+  h3.bold {
+    font-weight: 800;
   }
+
+  
 
   /* FOOTER */
   .attribution {
