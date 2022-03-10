@@ -61,14 +61,15 @@ h1 {
   .question {
     display: flex;
     text-align: left;
-    margin: 1em;
-    padding: 1.2em 1em;
+    margin: 0.5em 1.2em;
+    padding: 1.2em 0.5em;
   }
 
   h1 {
     font-size: 4em;
     padding: 3em 0 0.5em 0;
     font-weight: 900;
+    color: rgb(27, 27, 27);
   }
 
   .question h3 {
@@ -94,7 +95,7 @@ h1 {
     padding-bottom: 0;
     text-align: left;
     line-height: 1.5em;
-    margin: 0 3em 1.5em 2em;
+    margin: -0.5em 3.5em 0.8em 2em;
   }
 
   .line {
@@ -112,129 +113,5 @@ h1 {
   }
   .attribution a {
     color: hsl(228, 45%, 44%);
-  }
-}
-
-/* DESKTOP VIEW */
-@media only screen and (min-width: 480px) {
-  body {
-    font-family: "Kumbh Sans", sans-serif;
-    font-size: 12px;
-    background: linear-gradient(#af67e9, #6565e7);
-    background-repeat: no-repeat;
-    color: hsl(237, 12%, 33%);
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-
-    /*
-   Primary Text
-  - Very dark desaturated blue: hsl(238, 29%, 16%)
-  - Soft red: hsl(14, 88%, 65%)
-  
-  Neutral Text
-  - Very dark grayish blue: hsl(237, 12%, 33%)
-  - Dark grayish blue: hsl(240, 6%, 50%)
-  
-  Dividers
-  - Light grayish blue: hsl(240, 5%, 91%)
-  
-    */
-  }
-
-  /* IMAGE CONTENT */
-  .left-content {
-  }
-
-  .img {
-    position: absolute;
-  }
-
-  .bg {
-    width: 25%;
-    z-index: 2;
-  }
-
-  .woman {
-    width: 25%;
-    z-index: 1;
-  }
-    
-
-  .woman-mobile {
-    display: none;
-
-  }
-  .attribution {
-    font-size: 11px;
-    text-align: center;
-  }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
-
-  /* TEXT CONTENT */
-  .right-content {
-    position: absolute;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    width: 85vw;
-    height: 70vh;
-    margin: 13em 2.5em;
-    text-align: center;
-    letter-spacing: -0.05em;
-  }
-
-  .question {
-    display: flex;
-    text-align: left;
-    margin: 1em;
-    padding: 1.2em 1em;
-  }
-
-  h1 {
-    font-size: 4em;
-    padding: 3em 0 0.5em 0;
-    font-weight: 900;
-  }
-
-  .question h3 {
-    font-size: 1.2em;
-    font-weight: 500;
-   
-  }
-
-  .arrow-down {
-    position: absolute;
-    right: 1.5em;
-    padding-top: 0.3em;
-    cursor: pointer;
-  }
-
-  .hidden {
-    display: none;
-    margin: 0 1em 1em 1em;
-  }
-
-  .unhide {
-    display: flex;
-    padding-bottom: 0;
-    text-align: left;
-    line-height: 1.5em;
-    margin: 0 3em 1.5em 2em;
-  }
-
-  .line {
-    margin: 0 1.5em;
-    border-bottom: 1.5px solid rgb(216, 215, 215);
-  }
-
-  /* FOOTER */
-  .attribution {
-    position: absolute;
-    font-size: 11px;
-    text-align: center;
-    bottom: 10px;
-    padding-left: 10%;
   }
 }
