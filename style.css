@@ -75,7 +75,6 @@ h1 {
   .question h3 {
     font-size: 1.2em;
     font-weight: 500;
-   
   }
 
   .arrow-down {
@@ -83,6 +82,7 @@ h1 {
     right: 1.5em;
     padding-top: 0.3em;
     cursor: pointer;
+    transition: ease-out;
   }
 
   .line {
@@ -90,12 +90,11 @@ h1 {
     border-bottom: 1.5px solid rgb(216, 215, 215);
   }
 
-  .hidden {
-    display: none;
-    margin: 0 1em 1em 1em;
-  }
-
-  .unhide {
+  .show,
+  .show2,
+  .show3,
+  .show4,
+  .show5 {
     display: flex;
     padding-bottom: 0;
     text-align: left;
@@ -106,8 +105,6 @@ h1 {
   h3.bold {
     font-weight: 800;
   }
-
-  
 
   /* FOOTER */
   .attribution {
