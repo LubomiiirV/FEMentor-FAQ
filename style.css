@@ -20,9 +20,6 @@ h1 {
   }
 
   /* IMAGE CONTENT */
-  .left-content {
-  }
-
   .img {
     position: absolute;
   }
@@ -55,6 +52,10 @@ h1 {
     margin: 13em 2.5em;
     text-align: center;
     letter-spacing: -0.05em;
+  }
+
+  .question-full {
+    cursor: pointer;
   }
 
   .question {
@@ -252,7 +253,6 @@ h1 {
     font-weight: 800;
   }
     
-
   /* FOOTER */
   .attribution {
     position: fixed;
@@ -261,6 +261,7 @@ h1 {
     bottom: 10px;
     left: 35%;
   }
+  
   .attribution a {
     font-size: 1.2em;
     color: hsl(228, 45%, 44%);
