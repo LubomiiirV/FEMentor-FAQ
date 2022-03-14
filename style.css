@@ -24,6 +24,10 @@ h1 {
     position: absolute;
   }
 
+  .cube {
+    display: none;
+  }
+
   .bg {
     width: 60%;
     left: 20%;
@@ -261,7 +265,7 @@ h1 {
     bottom: 10px;
     left: 35%;
   }
-  
+
   .attribution a {
     font-size: 1.2em;
     color: hsl(228, 45%, 44%);
