@@ -7,8 +7,7 @@ h1 {
 }
 
 /* MOBILE VIEW */
-/* Smaller devices not supported */
-@media only screen and (min-device-width: 375px) and (max-device-width: 480px) {
+@media only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   body {
     font-family: "Kumbh Sans", sans-serif;
     font-size: 12px;
@@ -71,13 +70,13 @@ h1 {
   }
 
   h1 {
-    font-size: 50px;
-    padding: 2.4em 0 0.5em 0;
+    font-size: 4em;
+    padding: 3em 0 0.5em 0;
     font-weight: 900;
     color: rgb(27, 27, 27);
   }
   .question h3 {
-    font-size: 16px;
+    font-size: 1.2em;
     font-weight: 500;
   }
 
@@ -110,10 +109,6 @@ h1 {
     font-weight: 800;
   }
 
-  p {
-    font-size: 12px;
-  }
-
   /* FOOTER */
   .attribution {
     position: absolute;
@@ -129,7 +124,7 @@ h1 {
 }
 
 /* TABLETS */
-@media only screen and (min-device-width: 481px) and (max-device-width: 767px) {
+@media only screen and (min-device-width: 480px) and (max-device-width: 767px) {
 }
 
 /* DESKTOP */
@@ -210,8 +205,8 @@ h1 {
   }
 
   h1 {
-    font-size: 60px;
-    padding: 2em 0 0.5em 0;
+    font-size: 4em;
+    padding: 3em 0 0.5em 0;
     font-weight: 900;
     color: rgb(27, 27, 27);
     text-align: left;
@@ -230,7 +225,7 @@ h1 {
   }
 
   .question h3 {
-    font-size: 20px;
+    font-size: 1.5em;
     font-weight: 500;
   }
 
@@ -265,14 +260,14 @@ h1 {
   /* FOOTER */
   .attribution {
     position: fixed;
-    font-size: 12px;
+    font-size: 1.5em;
     text-align: center;
     bottom: 10px;
     left: 35%;
   }
 
   .attribution a {
-    font-size: 12px;
+    font-size: 1.2em;
     color: hsl(228, 45%, 44%);
   }
 }
