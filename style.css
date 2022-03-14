@@ -208,6 +208,10 @@ h1 {
     margin-left: 18px;
   }
 
+  .question-full {
+    cursor: pointer;
+  }
+
   .question {
     display: flex;
     text-align: left;
@@ -224,7 +228,6 @@ h1 {
     position: absolute;
     right: 1.5em;
     padding-top: 0.3em;
-    cursor: pointer;
   }
 
   .line {
@@ -248,6 +251,7 @@ h1 {
   h3.bold {
     font-weight: 800;
   }
+    
 
   /* FOOTER */
   .attribution {
