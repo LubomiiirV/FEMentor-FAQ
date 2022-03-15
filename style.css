@@ -18,6 +18,8 @@ h1 {
     height: 100vh;
   }
 
+  
+
   /* IMAGE CONTENT */
   .img {
     position: absolute;
@@ -160,6 +162,7 @@ h1 {
     top: 8%;
     left: 20%;
     right: 20%;
+    box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.2), 0 60px 200px 0 rgba(0, 0, 0, 0.19);
   }
 
   /* IMAGE CONTENT */
